@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.compose.ui:ui:1.11.0")
     implementation("androidx.compose.material:material-icons-core")
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
